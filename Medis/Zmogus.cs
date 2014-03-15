@@ -41,6 +41,7 @@ namespace Medis
             gyv_mires = gyv_m;
             mano_ID = m_ID;
             tevo_ID = t_ID;
+            //Sveikas pasauli
         }
     }
 }

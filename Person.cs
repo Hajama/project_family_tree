@@ -1,6 +1,6 @@
 ﻿using System;
 
-//gggas
+//gggas...
 public class Person
 {
     private string id;

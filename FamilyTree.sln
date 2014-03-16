@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyTree", "FamilyTree.csproj", "{3D9DAEA3-8A70-4A86-8C77-0C1F6FE19C96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{4ABCBAF7-9150-4805-8F64-EFCF42A01313}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B16873A8-D493-4C85-91EF-54F361010605}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{385ED7DF-080F-42E2-9FCB-7EA84CA877EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{03B33FA3-AF81-40A8-89A4-B7DCE3ECB585}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Version", "Version", "{6CDA01DD-ED39-4C3D-8022-5DE9CCADDBA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{BEE70ECC-E799-4D8E-A941-3460E5A8C94E}"
+	ProjectSection(SolutionItems) = preProject
+		Person.cs = Person.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{0061FAEC-C426-409F-A5DA-CDB14C92F4DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{81CD294E-B48A-480A-87FD-16B0172BB3FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D9DAEA3-8A70-4A86-8C77-0C1F6FE19C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9DAEA3-8A70-4A86-8C77-0C1F6FE19C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9DAEA3-8A70-4A86-8C77-0C1F6FE19C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9DAEA3-8A70-4A86-8C77-0C1F6FE19C96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEE70ECC-E799-4D8E-A941-3460E5A8C94E} = {4ABCBAF7-9150-4805-8F64-EFCF42A01313}
+		{0061FAEC-C426-409F-A5DA-CDB14C92F4DE} = {4ABCBAF7-9150-4805-8F64-EFCF42A01313}
+		{81CD294E-B48A-480A-87FD-16B0172BB3FF} = {4ABCBAF7-9150-4805-8F64-EFCF42A01313}
+	EndGlobalSection
+EndGlobal
